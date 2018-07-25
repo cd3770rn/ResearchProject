@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 figcaption {
-   font-size: 75%;
-   text-align: center;
-   padding: 0.5em;
+    font-size: 75%;
+    text-align: center;
+    padding: 0.5em;
  }
 
 img {
@@ -16,19 +16,22 @@ img {
 }
 
 li {
-   padding-left: 22px ;
-   text-indent: -22px ;
+    padding-left: 22px ;
+    text-indent: -22px ;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .works_cited {
     padding-left: 22px ;
     text-indent: -22px ;
-    list-style-type: none;
 }
 
